@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenidoP {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 960px;
+    height: 720px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.ContenidoTexto {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo  {
+    height: 80%;
+    margin-top: 38px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0A3871;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+
+.texto__parrafo {
+    font-size: 40px;
+    color: #0e4c92;
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+
+}
+
+.ContenidoInput {
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #0e4c92;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    box-sizing: border-box;
+}
+
+.botones {
+    display: flex; justify-content: space-around !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.EstiloBoton {
+    background-color: #0A3871;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+#CandadoE{
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    filter: invert(11%) sepia(61%) saturate(3484%) hue-rotate(209deg) brightness(104%) contrast(93%);
+}
+
+#Mencripta{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.container__boton:hover {
+    background-color: #0E4C92;
+}
